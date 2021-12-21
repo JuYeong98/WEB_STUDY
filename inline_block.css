@@ -1,0 +1,17 @@
+body {
+    color : black;
+}
+a { /*인라인 요소*/
+    color : black;
+    text-decoration: none;
+    border: 1px solid red;
+    /*
+    width , height 값을 가질 수 없음 상하 마진은 가지지 않음
+    */
+    margin : 50px;
+}
+div { /* 블럭요소*/
+    border :1px solid red;
+    height : 100px;
+    width : 50%;
+}
