@@ -1,0 +1,53 @@
+.container {
+    border: 5px red solid;
+    width : 1200px;
+    margin : auto;
+}
+header {
+    background-color: skyblue;
+    overflow : hidden;
+    margin:10px;
+}
+
+header article {
+    background-color: gray;
+    width:300px;
+    height:100px;
+}
+.logo {
+    float:left;
+    margin:20px;
+}
+.navi {
+    float :right;
+    margin:20px;
+}
+.news1 {
+    background-color: yellowgreen;
+    height: 300px;
+    margin:10px;
+}
+.news2 {
+    background-color: greenyellow;
+    height: 300px;
+    margin:10px;
+}
+.news2 article {
+    width: 33.33333%;
+    height :300px;
+    float : left;
+    box-sizing:border-box;
+}
+.sub1 {
+    background-color: darkgray;
+}
+.sub2 {
+    background-color: lightgray;
+}
+.sub3 {
+    background-color: lightslategray;
+}
+.footer {
+    background-color: skyblue;
+    height: 100px;
+}
