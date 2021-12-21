@@ -8,7 +8,12 @@ a { /*인라인 요소*/
     /*
     width , height 값을 가질 수 없음 상하 마진은 가지지 않음
     */
-    margin : 50px;
+    margin : 30px;
+    display: inline-block; /*inline인 block이 되었다. 따라서 width , height 상하마진 가능 
+    이 때 무조건 세로배치가 되는데 가로 배치를 시키고 싶을 때는 버튼(inline-block)을 만든다.*/
+    text-align: center;
+    border-radius: 10px;
+    padding : 5px; 
 }
 div { /* 블럭요소*/
     border :1px solid red;
